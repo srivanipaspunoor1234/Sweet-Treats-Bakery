@@ -1,0 +1,81 @@
+h1,p{
+    margin: auto;
+}header{
+    background-color: rgb(243, 198, 169);
+    padding-top: 10px;
+    text-align: center;
+   
+}
+h3{
+    color: rgb(143, 95, 55);
+}
+a{
+text-decoration: none;
+padding: 10px;
+color: brown;
+font-weight: bold;
+}
+marquee{
+    color: brown;
+}
+.one{
+    padding: 10px;
+}
+#Two{
+    height: 200px;
+    background-image: url(cake.avif);
+    background-size: cover;
+    background-position: 5px;
+    color: white;
+    
+}
+#subTwo{
+    padding-top: 60px;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+.card{
+  width: 200px;
+  height: 350px;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  margin: 50px;
+}
+article + h3,p{
+    padding: 5px;
+}
+.cardSection{
+   padding: 50px;
+     background-color: rgb(254, 244, 235);
+     padding-left: 80px;
+     display: flex;
+    
+}
+button{
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 5px 15px;
+    background-color: rgb(96, 49, 41);
+    color: white;
+}
+.card:hover button {
+  background: radial-gradient(farthest-side at 50px 10px, rgb(255, 51, 0),  rgb(255, 153, 0) ); 
+}
+.card:hover {
+    background-color:  rgb(96, 49, 41);
+    box-shadow: 5px 5px 10px rgb(152, 47, 29);
+    color: white;
+}
+.card:hover h3{
+    color: white;
+}
+
+footer{
+    background-color: rgb(243, 198, 169);
+    text-align: center;
+    padding: 10px;
+    
+}
